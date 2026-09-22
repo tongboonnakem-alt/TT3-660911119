@@ -1,0 +1,22 @@
+{
+  "name": "tt3",
+  "version": "1.0.0",
+  "description": "Resume website extended with a Node.js and Express.js development-plan API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "check": "node --check app.js && node --check public/dock.js && node --check public/tasks.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
